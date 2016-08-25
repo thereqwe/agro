@@ -13,6 +13,16 @@
 		B8130D091D6E9B1C007CFF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8130D071D6E9B1C007CFF2E /* Main.storyboard */; };
 		B8130D0B1D6E9B1C007CFF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8130D0A1D6E9B1C007CFF2E /* Assets.xcassets */; };
 		B8130D0E1D6E9B1C007CFF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8130D0C1D6E9B1C007CFF2E /* LaunchScreen.storyboard */; };
+		B8130D171D6E9C70007CFF2E /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D161D6E9C70007CFF2E /* AgoraRtcEngineKit.framework */; };
+		B8130D191D6E9CC0007CFF2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D181D6E9CC0007CFF2E /* AudioToolbox.framework */; };
+		B8130D1B1D6E9CC9007CFF2E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D1A1D6E9CC9007CFF2E /* VideoToolbox.framework */; };
+		B8130D1D1D6E9CD2007CFF2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D1C1D6E9CD2007CFF2E /* AVFoundation.framework */; };
+		B8130D1F1D6E9CDE007CFF2E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D1E1D6E9CDE007CFF2E /* CoreMedia.framework */; };
+		B8130D211D6E9CE7007CFF2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D201D6E9CE7007CFF2E /* CoreTelephony.framework */; };
+		B8130D231D6E9CF1007CFF2E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D221D6E9CF1007CFF2E /* CoreMotion.framework */; };
+		B8130D251D6E9CF9007CFF2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D241D6E9CF9007CFF2E /* SystemConfiguration.framework */; };
+		B8130D271D6E9D05007CFF2E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8130D261D6E9D05007CFF2E /* libc++.tbd */; };
+		B8130D291D6EA780007CFF2E /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8130D281D6EA780007CFF2E /* 123.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		B8130D0A1D6E9B1C007CFF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8130D0D1D6E9B1C007CFF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8130D0F1D6E9B1C007CFF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8130D161D6E9C70007CFF2E /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		B8130D181D6E9CC0007CFF2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B8130D1A1D6E9CC9007CFF2E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B8130D1C1D6E9CD2007CFF2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8130D1E1D6E9CDE007CFF2E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B8130D201D6E9CE7007CFF2E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B8130D221D6E9CF1007CFF2E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B8130D241D6E9CF9007CFF2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B8130D261D6E9D05007CFF2E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B8130D281D6EA780007CFF2E /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8130D271D6E9D05007CFF2E /* libc++.tbd in Frameworks */,
+				B8130D251D6E9CF9007CFF2E /* SystemConfiguration.framework in Frameworks */,
+				B8130D231D6E9CF1007CFF2E /* CoreMotion.framework in Frameworks */,
+				B8130D211D6E9CE7007CFF2E /* CoreTelephony.framework in Frameworks */,
+				B8130D1F1D6E9CDE007CFF2E /* CoreMedia.framework in Frameworks */,
+				B8130D1D1D6E9CD2007CFF2E /* AVFoundation.framework in Frameworks */,
+				B8130D1B1D6E9CC9007CFF2E /* VideoToolbox.framework in Frameworks */,
+				B8130D191D6E9CC0007CFF2E /* AudioToolbox.framework in Frameworks */,
+				B8130D171D6E9C70007CFF2E /* AgoraRtcEngineKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,15 @@
 		B8130CF21D6E9B1B007CFF2E = {
 			isa = PBXGroup;
 			children = (
+				B8130D261D6E9D05007CFF2E /* libc++.tbd */,
+				B8130D281D6EA780007CFF2E /* 123.mp3 */,
+				B8130D241D6E9CF9007CFF2E /* SystemConfiguration.framework */,
+				B8130D221D6E9CF1007CFF2E /* CoreMotion.framework */,
+				B8130D201D6E9CE7007CFF2E /* CoreTelephony.framework */,
+				B8130D1E1D6E9CDE007CFF2E /* CoreMedia.framework */,
+				B8130D1C1D6E9CD2007CFF2E /* AVFoundation.framework */,
+				B8130D1A1D6E9CC9007CFF2E /* VideoToolbox.framework */,
+				B8130D181D6E9CC0007CFF2E /* AudioToolbox.framework */,
 				B8130CFD1D6E9B1B007CFF2E /* YoukuAgroDemo */,
 				B8130CFC1D6E9B1B007CFF2E /* Products */,
 			);
@@ -58,6 +96,7 @@
 		B8130CFD1D6E9B1B007CFF2E /* YoukuAgroDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B8130D151D6E9C5C007CFF2E /* Vendor */,
 				B8130D011D6E9B1B007CFF2E /* AppDelegate.h */,
 				B8130D021D6E9B1B007CFF2E /* AppDelegate.m */,
 				B8130D041D6E9B1B007CFF2E /* ViewController.h */,
@@ -77,6 +116,14 @@
 				B8130CFF1D6E9B1B007CFF2E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8130D151D6E9C5C007CFF2E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B8130D161D6E9C70007CFF2E /* AgoraRtcEngineKit.framework */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +186,7 @@
 				B8130D0E1D6E9B1C007CFF2E /* LaunchScreen.storyboard in Resources */,
 				B8130D0B1D6E9B1C007CFF2E /* Assets.xcassets in Resources */,
 				B8130D091D6E9B1C007CFF2E /* Main.storyboard in Resources */,
+				B8130D291D6EA780007CFF2E /* 123.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +313,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yin Sun (W97Q5T57P9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YoukuAgroDemo/Vendor",
+				);
 				INFOPLIST_FILE = YoukuAgroDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youku.YoukuAgroDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.liveshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc88dd73-4bbd-48a6-ba64-367f313404e9";
 			};
 			name = Debug;
 		};
@@ -276,10 +330,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yin Sun (W97Q5T57P9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YoukuAgroDemo/Vendor",
+				);
 				INFOPLIST_FILE = YoukuAgroDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Youku.YoukuAgroDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.liveshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fc88dd73-4bbd-48a6-ba64-367f313404e9";
 			};
 			name = Release;
 		};
