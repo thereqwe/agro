@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
+#import "UIButton+WebCache.h"
+#import "YKChatViewController.h"
 @interface ViewController ()<AgoraRtcEngineDelegate>
 {
     AgoraRtcEngineKit *engineKit;
@@ -18,12 +20,30 @@
 @end
 
 @implementation ViewController
+@synthesize love;
+-(void)setLove:(NSString *)_love
+{
+    love = _love;
+}
+
+-(NSString *)love
+{
+    NSLog(@"123");
+    return @"123";
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    YKChatViewController *vc = [YKChatViewController new];
+    [self presentViewController:vc animated:NO completion:^{
+        
+    }];
+    return;
     viewArr = [NSMutableArray new];
     [self setupUI];
     [self setupEngine];
+    self.love = @"456";
+    love = @"789";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -52,7 +72,6 @@
     ui_view_remote_preview.frame = (CGRect){0,200,200,200};
     [self.view addSubview:ui_view_remote_preview];
     
-    
     ui_view_remote_preview.frame = (CGRect){0,23,34,56};
     NSLog(@"change the camera");
 }
@@ -60,6 +79,8 @@
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine firstRemoteVideoDecodedOfUid:(NSUInteger)uid size:(CGSize)size elapsed:(NSInteger)elapsed
 {
     NSLog(@"First Remoto Videodecoded====>%lu",(unsigned long)uid);
+    UIView *view = [UIView new];
+    view.frame = (CGRect){123,123,123,123};
     //add(23);
 }
 

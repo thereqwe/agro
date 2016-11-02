@@ -7,16 +7,27 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import <LocalAuthentication/LocalAuthentication.h>
+#import "YKChatViewController.h"
+typedef int(^Myblock)(int,int);
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    window.backgroundColor = [UIColor whiteColor];
+    self.window = window;
+    YKChatViewController *navi = [[YKChatViewController alloc]init];
+    window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    return YES;
+    
+  
     return YES;
 }
 
